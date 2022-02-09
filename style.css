@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container::after,
+.container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col33{
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col50{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col25{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col20{
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+}
+
+
+/* header part css start */
+
+.logo{
+    float: left;
+    margin: 20px;
+    display: block;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+.menu ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666;
+    text-transform: uppercase;
+    
+}
+
+/* header part css end */
+
+
+/* about part css start */
+
+.banner{
+    background-image: url(img/banner.jpg);
+    height: 750px;
+    background-size: cover;
+}
+
+.banner_content{
+    text-align: center;
+    color: #fff;
+}
+
+.banner_content h1{
+    margin-top: 250px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.banner_content h2{
+    font-size: 36px;
+}
+
+.b_btn a{
+    margin-top: 60px;
+    display: inline-block;
+    border: 1px solid #99c50a;
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #99c50a;
+    border-radius: 8px;
+}
+
+/* banner part css end */
+
+
+/* about part css start */
+
+.about{
+    text-align: center;
+}
+
+.about_img{
+    margin: 100px 0 30px 0;
+}
+
+.about_text h2{
+    color: #515151;
+    font-size: 35px;
+}
+
+.about_text p{
+    color: #515151;
+    margin: 70px 0 140px 0;
+    font-size: 20px;
+}
+
+
+/* about part css end */
+
+
+/* services part css start */
+
+.propertis{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+
+.one{
+    width: 50%;
+    float: left;
+    background-color: #e2f8ff;
+}
+.subone ul{
+    list-style: none;
+}
+.subone ul li{
+   margin: 10px 35px ;
+}
+.subone ul li{
+   margin: 10px 35px ;
+}
+.subtwo ul li{
+   margin: 10px 35px ;
+}
+.subone ul li a{
+   background-color: #99c50a;
+   border: none;
+   text-decoration: none;
+   border-radius: 5PX;
+   padding: 10px 10px;
+   color:#fff;
+   font-size: 20px;
+   border: 1px solid #99c50a;
+   display: inline-block;
+   margin-bottom: 10px;
+   transition: 0.4s ease-in-out;
+   -webkit-animation: 0.4s;
+   -moz-animation: 0.5s;
+   -o-animation: 0.5s;
+      
+}
+.subone ul li a:hover{
+   cursor: pointer;
+   background-color: rgba(38, 0, 255, 0.555);
+   color: red;   
+}
+
+.two{
+   width: 50%;
+   float: left;
+   background-color: #f5f9eb;
+}
+
+.subtwo ul{
+   list-style: none;
+}
+
+.subtwo ul li{
+   margin: 10px 35px ;
+}
+.subtwo ul li a{
+   background-color: #99c50a;
+   border: none;
+   text-decoration: none;
+   border-radius: 5PX;
+   padding: 10px 10px;
+   color:#fff;
+   font-size: 20px;
+   border: 1px solid #99c50a;
+   display: inline-block;
+   margin-bottom: 10px;
+   transition: 0.4s ease-in-out;
+   -webkit-animation: 0.4s;
+   -moz-animation: 0.5s;
+   -o-animation: 0.5s;
+      
+}
+.subtwo ul li a:hover{
+   cursor: pointer;
+   background-color: rgba(38, 0, 255, 0.555);
+   color: red;   
+}
+
+/* services part css end */
+
+
+/* featured part css start */
+
+.featured{
+    margin-top: 80px;
+}
+
+.f_title h2{
+    font-size: 30px;
+    color: #515151;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.f_subtitle p{
+    font-size: 18px;
+    color: #8f8f8f;
+}
+
+.f_subtitle a{
+    float: right;
+    margin-top: -70px;
+    border: 1px solid #2b2c26;
+    color: #666666;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.cards{
+    margin-top: 72px;
+}
+
+.cards .col33{
+    position: relative;
+    padding: 15px;
+}
+
+.cards .col33 img{
+    width: 100%;
+    display: block;
+}
+
+.cards .col33 .overlay{
+    position: absolute;
+    top: 39%;
+    left: 55%;
+    text-align: center;
+    background: #26a6d1;
+}
+
+.cards .col33 .overlay p{
+    color: #fff;
+    font-size: 16px;
+    padding: 0 8px 0 8px;
+}
+/* gallery part css start */
+
+.gallery{
+    background-color: #fff;
+    text-align: center;
+}
+
+.cards .col33{
+    padding: 15px;
+}
+
+
+/* gallery part css end */
+
+/*sponsoredby part Start*/
+
+.sponsoredby{
+    background-image: url(img/sponsoredby.jpg);
+    height: 50px;
+    position: relative;
+    padding: 15px 15px;
+    float: center;
+   
+}
+   
+.footer{
+    background-color: #fff;
+}
+
+.footer_text{
+    text-align: center;
+    color: #999;
+}
+
+
+
+
+
